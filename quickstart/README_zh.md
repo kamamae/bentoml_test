@@ -1,4 +1,4 @@
-![bge_logo](./imgs/bge_logo.jpg)
+![bge_logo](../imgs/bge_logo.jpg)
 
 <h1 align="center">⚡️BGE: One-Stop Retrieval Toolkit For Search and RAG</h1>
 <p align="center">
@@ -38,7 +38,7 @@
 
 BGE (BAAI General Embedding) 专注于检索增强llm领域，目前包括以下项目:
 
-![projects](./imgs/projects.png)
+![projects](../imgs/projects.png)
 
 - **推理**: [Embedder](https://github.com/FlagOpen/FlagEmbedding/tree/master/examples/inference/embedder), [Reranker](https://github.com/FlagOpen/FlagEmbedding/tree/master/examples/inference/reranker)
 - **微调**: [Embedder](https://github.com/FlagOpen/FlagEmbedding/tree/master/examples/finetune/embedder), [Reranker](https://github.com/FlagOpen/FlagEmbedding/tree/master/examples/finetune/reranker)

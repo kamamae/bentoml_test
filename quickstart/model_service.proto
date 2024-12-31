@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package similarity;
+
+service SimilarityService {
+    rpc ComputeSimilarity (SimilarityRequest) returns (SimilarityResponse);
+}
+
+message SimilarityRequest {
+    repeated string sentences_1 = 1;
+    repeated string sentences_2 = 2;
+}
+
+message SimilarityResponse {
+    repeated float similarity = 1;
+}
